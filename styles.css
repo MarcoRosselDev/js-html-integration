@@ -1,0 +1,7 @@
+
+body{
+    background-color: rgb(63, 57, 57);
+}
+h1, h2, p, label{
+    color: aquamarine;
+}
