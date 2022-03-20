@@ -39,7 +39,7 @@ console.groupEnd("triangulo");
 
 console.group("circulo")
 
-const radio = 5;
+const radio = 4;
 
 console.log("el radio del circulo es :" + radio + "cm")
 
@@ -47,7 +47,7 @@ const perimetroCirculo = (2*radio*3.1415)
 console.log("el perimetro del circulo es :" + perimetroCirculo + "cm");
 
 const areaCirculo = radio*radio*3.1415;
-console.log()
+console.log("el area del circulo es: " + areaCirculo + "cm^2")
 
 
 
