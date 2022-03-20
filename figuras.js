@@ -14,20 +14,41 @@ console.log("El area de un cuadrado es :" + AreaCuadrado + "cm^2")
 console.groupEnd("cuadrado");
 
 
-console.group(triangulo);
+console.group("triangulo");
 
-const ladoTriangulo1 = 5;
-const ladoTriangulo2 = 5;
-const BaseTriangulo = 3;
+const ladoTriangulo1 = 6;
+const ladoTriangulo2 = 6;
+const BaseTriangulo = 4;
+const AlturaTriangulo = 5.5;
 
 console.log(
     "Los lados del triangulo miden:"
-    +  ladoTriangulo1
-    + "cm, "
-    + ladoTriangulo2
-    + "cm, "
-    + BaseTriangulo
-    + "cm."
+    + ladoTriangulo1 + "cm de lado " +
+    + ladoTriangulo2 + "cm de lado"
+    + AlturaTriangulo + "cm de altura"
+    + BaseTriangulo + "cm de base"
 );
 
-console.groupEnd("cuadrado");
+const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + BaseTriangulo;
+console.log("el perimetro del triangulo es: " + perimetroTriangulo +"cm");
+
+const areaTriangulo = (BaseTriangulo * AlturaTriangulo) / 2;
+console.log("el area del triangulo es: " + areaTriangulo + "cm^2")
+
+console.groupEnd("triangulo");
+
+console.group("circulo")
+
+const radio = 5;
+
+console.log("el radio del circulo es :" + radio + "cm")
+
+const perimetroCirculo = (2*radio*3.1415)
+console.log("el perimetro del circulo es :" + perimetroCirculo + "cm");
+
+const areaCirculo = radio*radio*3.1415;
+console.log()
+
+
+
+console.groupEnd()
