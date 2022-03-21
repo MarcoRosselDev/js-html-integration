@@ -15,7 +15,7 @@ function areaCuadrado(lado) {
 console.groupEnd();
 
 // CÃ³digo del triÃ¡ngulo
-console.group("TriÃ¡ngulos");
+console.group("Triangulo");
 
 // const ladoTriangulo1 = 6;
 // const ladoTriangulo2 = 6;
@@ -41,12 +41,12 @@ function perimetroTriangulo(lado1, lado2, base) {
 function areaTriangulo(base, altura) {
   return (base * altura) / 2;
 }
-console.log("El Ã¡rea del triÃ¡ngulo es: " + areaTriangulo + "cmË†2");
+console.log("El Area del triángulo es: " + areaTriangulo + "cm^2");
 
 console.groupEnd();
 
 // CÃ³digo del cÃ­rculo
-console.group("CÃ­rculos");
+console.group("Circulos");
 
 // Radio
 // const radioCirculo = 4;
