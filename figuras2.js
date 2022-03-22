@@ -6,7 +6,7 @@ function perimetroCuadrado (lado) {
 }
 
 function areaCuadrado (lado) {
-    return lado*lado;
+    return lado * lado;
 }
 
 console.groupEnd();
@@ -24,14 +24,30 @@ function areaTriangulo(base, altura){
 
 console.groupEnd();
 
-console.group("circulo");
+console.group("Circulos");
 
-function perimetroCirculo(radio);
-    return radio*2*3.1415;
+// Radio
+// const radioCirculo = 4;
+// console.log("El radio del cÃ­rculo es: " + radioCirculo + "cm");
+
+// DiÃ¡metro
+function diametroCirculo(radio) {
+  return radio * 2;
 }
 
-function areaCirculo (radio){
-    return radio*radio*3.1415;
+// PI
+const PI = Math.PI;
+console.log("PI es: " + PI);
+
+// Circunferencia
+function perimetroCirculo(radio) {
+  const diametro = diametroCirculo(radio);
+  return diametro * PI;
+}
+
+// Ãrea
+function areaCirculo(radio) {
+  return (radio * radio) * PI;
 }
 
 console.groupEnd();
@@ -46,7 +62,7 @@ function calcularPerimetroCuadrado() {
     alert("el perimetro del cuadrado es:" + importante);
 }
 
-function calcularÁreaCuadrado() {
+function calcularAreaCuadrado() {
     const input = document.getElementById("inputCuadrado");
     const value = input.value;
     
