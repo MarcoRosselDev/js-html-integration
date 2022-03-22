@@ -69,3 +69,13 @@ function calcularAreaCuadrado() {
     const area = areaCuadrado(value);
     alert("el area del cuadrado es :" + area);
 }
+
+// interacción con html (triángulo)
+
+function calcularPerimetroTriángulo() {
+  const input = document.getElementById("inputTriángulo");
+  const value = input.value;
+
+  const wherever = perimetroTriangulo(value);
+  alert("el perimetro del triángulo es :" + wherever )
+}
