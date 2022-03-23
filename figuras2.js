@@ -59,7 +59,10 @@ function calcularPerimetroCuadrado() {
     const value = input.value;
 
     const importante = perimetroCuadrado(value);
-    alert("el perimetro del cuadrado es:" + importante);
+    // alert("el perimetro del cuadrado es:" + importante);
+
+    const resultP = document.getElementById("ResultP");
+    resultP.innerText = "el perimetro del cuadreado es : $" + importante;
 }
 
 function calcularAreaCuadrado() {
