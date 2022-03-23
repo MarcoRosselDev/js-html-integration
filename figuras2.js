@@ -89,3 +89,11 @@ function calcularPerimetroCirculo() {
   const whereverit = perimetroCirculo(value);
   alert("el perimetro del circulo es :" + whereverit)
 }
+
+function calcularÁreaCirculo() {
+  const input = document.getElementById("inputCircle");
+  const value = input.value;
+
+  const randomName = areaCirculo(value);
+  alert("el área del circulo es :" + randomName)
+}
