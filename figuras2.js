@@ -59,10 +59,9 @@ function calcularPerimetroCuadrado() {
     const value = input.value;
 
     const importante = perimetroCuadrado(value);
-    // alert("el perimetro del cuadrado es:" + importante);
 
     const resultPerimetro = document.getElementById("ResultP");
-    resultPerimetro.innerText = "el perimetro del cuadreado es : $" + importante;
+    resultPerimetro.innerText = "el perimetro del cuadreado es : " + importante + " cm";
 }
 
 function calcularAreaCuadrado() {
@@ -72,29 +71,17 @@ function calcularAreaCuadrado() {
     const areaCua = areaCuadrado(value);
 
     const area = document.getElementById("asdhfl");
-    area.innerText = "el área del cuadreado es : $" + areaCua;
-    // alert("el area del cuadrado es :" + area);
+    area.innerText = "el área del cuadreado es : " + areaCua + " cm^2";
     
 }
-
-// interacción con html (triángulo)
-
-// function calcularPerimetroTriángulo() {
-//   const input = document.getElementById("inputTriángulo");
-//   const value = input.value;
-
-//   const wherever = perimetroTriangulo(value);
-//   alert("el perimetro del triángulo es :" + wherever )
-// }
-
-// interacción con html (circle)
 
 function calcularPerimetroCirculo() {
   const input = document.getElementById("inputCircle");
   const value = input.value;
 
   const whereverit = perimetroCirculo(value);
-  alert("el perimetro del circulo es :" + whereverit)
+  const circle = document.getElementById("circlePerimeterResult");
+  circle.innerText = "el perimetro del circulo es : " + whereverit + "cm";
 }
 
 function calcularÁreaCirculo() {
