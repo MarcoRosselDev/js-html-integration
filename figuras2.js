@@ -72,10 +72,20 @@ function calcularAreaCuadrado() {
 
 // interacción con html (triángulo)
 
-function calcularPerimetroTriángulo() {
-  const input = document.getElementById("inputTriángulo");
+// function calcularPerimetroTriángulo() {
+//   const input = document.getElementById("inputTriángulo");
+//   const value = input.value;
+
+//   const wherever = perimetroTriangulo(value);
+//   alert("el perimetro del triángulo es :" + wherever )
+// }
+
+// interacción con html (circle)
+
+function calcularPerimetroCirculo() {
+  const input = document.getElementById("inputCircle");
   const value = input.value;
 
-  const wherever = perimetroTriangulo(value);
-  alert("el perimetro del triángulo es :" + wherever )
+  const whereverit = perimetroCirculo(value);
+  alert("el perimetro del circulo es :" + whereverit)
 }
