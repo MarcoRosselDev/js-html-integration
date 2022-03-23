@@ -89,5 +89,7 @@ function calcularÁreaCirculo() {
   const value = input.value;
 
   const randomName = areaCirculo(value);
-  alert("el área del circulo es :" + randomName)
+  // alert("el área del circulo es :" + randomName)
+  const circleArea = document.getElementById("circlAreaResult");
+  circleArea.innerText = "el Area del circulo es :" + randomName + "cm^2";
 }
