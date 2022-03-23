@@ -61,16 +61,20 @@ function calcularPerimetroCuadrado() {
     const importante = perimetroCuadrado(value);
     // alert("el perimetro del cuadrado es:" + importante);
 
-    const resultP = document.getElementById("ResultP");
-    resultP.innerText = "el perimetro del cuadreado es : $" + importante;
+    const resultPerimetro = document.getElementById("ResultP");
+    resultPerimetro.innerText = "el perimetro del cuadreado es : $" + importante;
 }
 
 function calcularAreaCuadrado() {
     const input = document.getElementById("inputCuadrado");
     const value = input.value;
     
-    const area = areaCuadrado(value);
-    alert("el area del cuadrado es :" + area);
+    const areaCua = areaCuadrado(value);
+
+    const area = document.getElementById("asdhfl");
+    area.innerText = "el área del cuadreado es : $" + areaCua;
+    // alert("el area del cuadrado es :" + area);
+    
 }
 
 // interacción con html (triángulo)
