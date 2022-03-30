@@ -6,13 +6,15 @@
 
 //ejemplo;
 
-let valor1 = true;
-let valor2 = true;
+let afirmación = true;
+let afirmación2 = true;
 
-let resultadoDeValores = valor1 &&  valor2;
-let resultadoDeValores2 = valor1 || valor2;
-let resultadoDeValores3 = valor1 =! valor2;
+let resultadoAfirmación = afirmación &&  afirmación2;     // solo si las 2 son true devuelve true 
+let resultadoAfirmación2 = afirmación || afirmación2;     // basta con un true devuelve true
+let resultadoAfirmación3 = afirmación =! afirmación2;     // 
 
-document.write(resultadoDeValores);
-document.write(resultadoDeValores2);
-document.write(resultadoDeValores3);
+document.write(resultadoAfirmación);
+document.write(resultadoAfirmación2);
+document.write(resultadoAfirmación3);
+
+// para escribir en varias partes a la vez precionar alt + click en donde queremos escribir.
