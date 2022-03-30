@@ -43,3 +43,4 @@ document.write(pregunta3);
 //ejemplo
 
 document.write(numero1 !== numero2);
+
