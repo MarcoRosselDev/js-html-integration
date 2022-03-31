@@ -2,8 +2,8 @@
 // quieren comprar los hela dos más caros posibles.
 // quieren saber el vuelto. 
 
-let juan = Number(prompt(`¿cuanto dinero tienes juan ?`));
-let luis = Number(prompt(`¿cuanto dinero tienes  luis?`));
+let juan = Number(prompt(`¿cuanto dinero tienes juan ?`));      //ojito que se resolvio con parseInt(prompt(`pregunta`))
+let luis = Number(prompt(`¿cuanto dinero tienes  luis?`));      //parseInt combierte en tipo numero pero y Number ?
 let marco =Number(prompt(`¿cuanto dinero tienes  marco?`));
 
 //preguntamos cuanto dinero tienen y se lo asignamos a una variable
