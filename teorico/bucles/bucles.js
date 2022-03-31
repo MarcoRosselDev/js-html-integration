@@ -26,8 +26,29 @@ while (numero < 9) {                   //numero es menor que 20 ?
 
 let numero2 = 0;
 
-do{
-    document.write(numero2 + `<br>`)
-    numero2++;
+do{ 
+    document.write(numero2 + `<br>`)    //ejecuto numero ( 0 ) en pantalla
+    numero2++;                          //le sumo uno a numero2 
+}   
+while(numero2 <= 6)                     //ahora pregunto y si se cumple se reinicia el siclo.
+
+// break;       rompe el bucle en cualquier punto 
+
+let numero3 = 0;
+
+while (numero3 < 1000)  {                   //se va a ejecutar 1000 veces 
+    numero3++;                              //pero y si quiero que se detenga en x siclo?
+    document.write(numero3);
+    if  (numero3 == 10) {                   //entonces aparece if para salbar el dia.
+        break;
+    }
 }
-while(numero2 <= 6)
+
+// for /for in /for of
+//1.declarar
+//2.inicializar
+//3.iterar  (ciclo)
+
+for (let i = 0;) {
+
+}
