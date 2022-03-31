@@ -23,19 +23,24 @@ let smash = 800;
 // crear un sistema de puertas con if / else if / else
 
 if (juan >= 800 )    {
-    document.write(`Juan ¡ te alcanza para un smash    <br>`);
+    document.write(`Juan ¡ te alcanza para un smash    <br>
+    y te quedan ${juan - 800}   <br>`);
 }
 else if(juan >= 750 )   {
-    document.write(`Juan ¡ te alcanza para un centella <br>`);
+    document.write(`Juan ¡ te alcanza para un centella <br>
+    y te quedan ${juan - 750}   <br>`);
 }
 else if(juan >= 600 )   {
-    document.write(`Juan ¡ te alcanza para un lollypop <br>`);
+    document.write(`Juan ¡ te alcanza para un lollypop <br>
+    y te quedan ${juan - 600}   <br>`);
 }
 else if(juan >= 400 )   {
-    document.write(`Juan ¡ te alcanza para un helado de vainilla   <br>`);
+    document.write(`Juan ¡ te alcanza para un helado de vainilla   <br>
+    y te quedan ${juan - 400}   <br>`);
 }
 else if(juan >= 300 )   {
-    document.write(`Juan ¡ te alcanza para un helado de chocolito  <br>`);
+    document.write(`Juan ¡ te alcanza para un helado de chocolito  <br>
+    y te quedan ${juan - 300}   <br>`);
 }
 else {
     document.write(`Juan ¡ no te alcanza para nada :C  <br>`);
@@ -82,3 +87,6 @@ else if(marco >= 300 )   {
 else {
     document.write(`Marco ¡ no te alcanza para nada :C  <br>`);
 }
+
+//ahora quieren saber cuanto les queda de vuelto
+
