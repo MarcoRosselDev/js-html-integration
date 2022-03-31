@@ -2,10 +2,83 @@
 // quieren comprar los hela dos más caros posibles.
 // quieren saber el vuelto. 
 
-let juan = prompt(`¿cuanto dinero tienes juan ?`);
-let luis = prompt(`¿cuanto dinero tienes  luis?`);
-let marco = prompt(`¿cuanto dinero tienes  marco?`);
+let juan = Number(prompt(`¿cuanto dinero tienes juan ?`));
+let luis = Number(prompt(`¿cuanto dinero tienes  luis?`));
+let marco =Number(prompt(`¿cuanto dinero tienes  marco?`));
 
-document.write(`juan tiene; $`  + juan  + `<br>`);
-document.write(`luis tiene; $` + luis  + `<br>`);
-document.write(`marco tiene; $` + marco  + `<br>`);
+//preguntamos cuanto dinero tienen y se lo asignamos a una variable
+
+// document.write(`juan tiene; $`  + juan  + `<br>`);
+// document.write(`luis tiene; $` + luis  + `<br>`);
+// document.write(`marco tiene; $` + marco  + `<br>`);
+
+//creo una lista de helados con los precios
+
+let chocolito = 300;
+let heladoVainilla = 400;
+let lollyPop = 600;
+let centella = 750;
+let smash = 800;
+
+// crear un sistema de puertas con if / else if / else
+
+if (juan >= 800 )    {
+    document.write(`Juan ¡ te alcanza para un smash    <br>`);
+}
+else if(juan >= 750 )   {
+    document.write(`Juan ¡ te alcanza para un centella <br>`);
+}
+else if(juan >= 600 )   {
+    document.write(`Juan ¡ te alcanza para un lollypop <br>`);
+}
+else if(juan >= 400 )   {
+    document.write(`Juan ¡ te alcanza para un helado de vainilla   <br>`);
+}
+else if(juan >= 300 )   {
+    document.write(`Juan ¡ te alcanza para un helado de chocolito  <br>`);
+}
+else {
+    document.write(`Juan ¡ no te alcanza para nada :C  <br>`);
+}
+
+
+
+if (luis >= 800 )    {
+    document.write(`Luis ¡ te alcanza para un smash    <br>`);
+}
+else if(luis >= 750 )   {
+    document.write(`Luis ¡ te alcanza para un centella <br>`);
+}
+else if(luis >= 600 )   {
+    document.write(`Luis ¡ te alcanza para un lollypop <br>`);
+}
+else if(luis >= 400 )   {
+    document.write(`Luis ¡ te alcanza para un helado de vainilla   <br>`);
+}
+else if(luis >= 300 )   {
+    document.write(`Luis ¡ te alcanza para un helado de chocolito  <br>`);
+}
+else {
+    document.write(`Luis ¡ no te alcanza para nada :C  <br>`);
+}
+
+
+
+if (marco >= 800 )    {
+    document.write(`Marco ¡ te alcanza para un smash    <br>`);
+}
+else if(marco >= 750 )   {
+    document.write(`Marco ¡ te alcanza para un centella <br>`);
+}
+else if(marco >= 600 )   {
+    document.write(`Marco ¡ te alcanza para un lollypop <br>`);
+}
+else if(marco >= 400 )   {
+    document.write(`Marco ¡ te alcanza para un helado de vainilla   <br>`);
+}
+else if(marco >= 300 )   {
+    document.write(`Marco ¡ te alcanza para un helado de chocolito  <br>`);
+}
+else {
+    document.write(`Marco ¡ no te alcanza para nada :C  <br>`);
+}
