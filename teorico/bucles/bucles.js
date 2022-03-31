@@ -45,10 +45,22 @@ while (numero3 < 1000)  {                   //se va a ejecutar 1000 veces
 }
 
 // for /for in /for of
-//1.declarar
-//2.inicializar
-//3.iterar  (ciclo)
+//1.declaración e inicialización
+//2.condición
+//3.aumento o decremento       iterar  (ciclo)
 
-for (let i = 0;) {
+for (let i = 0; i < 6 ; i++) {      //si quiero usar i declarada afuera dejos (i;i<6;i++)
+    document.write(i + `<br>`)      //por que puede ser que quiera incorporar una variable de afuera.
+}
 
+//que pasa si quiero saltarme una iteración ?
+
+//continue; es lo mismo que el break pero se lo salta no lo corta.
+//ejemplo.
+
+for (let i = 10; i < 19 ; i++) {
+    if (i == 15) {
+        continue;
+    }
+    document.write(i + `<br>`);     //ojo que no me salio si dejama esto antes del if
 }
