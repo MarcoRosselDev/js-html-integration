@@ -15,7 +15,19 @@ if (numero < 10)    {           // si numero es menor que 10
 }
 //ahora usamos un bucle
 
-while (numero < 20) {                   //numero es menor que 20 ?
+while (numero < 9) {                   //numero es menor que 20 ?
     document.write(numero + `<br>`)     //lo mostramos en pantalla
     numero++;                           //le sumamos uno, ahora es 1 y se repite el siclo
 }                                       //pregunta asta que no es menor que 20 y continua.
+
+// do while
+
+//la diferencia con while es que do while primero hace el bloque de codigo y luego pregunta
+
+let numero2 = 0;
+
+do{
+    document.write(numero2 + `<br>`)
+    numero2++;
+}
+while(numero2 <= 6)
