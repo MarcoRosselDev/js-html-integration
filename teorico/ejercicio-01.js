@@ -24,23 +24,23 @@ let smash = 800;
 
 if (juan >= 800 )    {
     document.write(`Juan ¡ te alcanza para un smash    <br>
-    y te quedan ${juan - 800}   <br>`);
+    y te quedan $ ${juan - 800}   <br>`);
 }
 else if(juan >= 750 )   {
     document.write(`Juan ¡ te alcanza para un centella <br>
-    y te quedan ${juan - 750}   <br>`);
+    y te quedan $ ${juan - 750}   <br>`);
 }
 else if(juan >= 600 )   {
     document.write(`Juan ¡ te alcanza para un lollypop <br>
-    y te quedan ${juan - 600}   <br>`);
+    y te quedan $ ${juan - 600}   <br>`);
 }
 else if(juan >= 400 )   {
     document.write(`Juan ¡ te alcanza para un helado de vainilla   <br>
-    y te quedan ${juan - 400}   <br>`);
+    y te quedan $ ${juan - 400}   <br>`);
 }
 else if(juan >= 300 )   {
     document.write(`Juan ¡ te alcanza para un helado de chocolito  <br>
-    y te quedan ${juan - 300}   <br>`);
+    y te quedan $ ${juan - 300}   <br>`);
 }
 else {
     document.write(`Juan ¡ no te alcanza para nada :C  <br>`);
@@ -49,19 +49,24 @@ else {
 
 
 if (luis >= 800 )    {
-    document.write(`Luis ¡ te alcanza para un smash    <br>`);
+    document.write(`Luis ¡ te alcanza para un smash    <br>
+    y te quedan $ ${luis - 800} <br>`);
 }
 else if(luis >= 750 )   {
-    document.write(`Luis ¡ te alcanza para un centella <br>`);
+    document.write(`Luis ¡ te alcanza para un centella <br>
+    y te quedan $ ${luis - 750} <br>`);
 }
 else if(luis >= 600 )   {
-    document.write(`Luis ¡ te alcanza para un lollypop <br>`);
+    document.write(`Luis ¡ te alcanza para un lollypop <br>
+    y te quedan $ ${luis - 600} <br>`);
 }
 else if(luis >= 400 )   {
-    document.write(`Luis ¡ te alcanza para un helado de vainilla   <br>`);
+    document.write(`Luis ¡ te alcanza para un helado de vainilla   <br>
+    y te quedan $ ${luis - 400} <br>`);
 }
 else if(luis >= 300 )   {
-    document.write(`Luis ¡ te alcanza para un helado de chocolito  <br>`);
+    document.write(`Luis ¡ te alcanza para un helado de chocolito  <br>
+    y te quedan $ ${luis - 300} <br>`);
 }
 else {
     document.write(`Luis ¡ no te alcanza para nada :C  <br>`);
@@ -70,19 +75,24 @@ else {
 
 
 if (marco >= 800 )    {
-    document.write(`Marco ¡ te alcanza para un smash    <br>`);
+    document.write(`Marco ¡ te alcanza para un smash    <br>
+    y te quedan $ ${marco - 800}   <br>`);
 }
 else if(marco >= 750 )   {
-    document.write(`Marco ¡ te alcanza para un centella <br>`);
+    document.write(`Marco ¡ te alcanza para un centella <br>
+    y te quedan $ ${marco - 750}   <br>`);
 }
 else if(marco >= 600 )   {
-    document.write(`Marco ¡ te alcanza para un lollypop <br>`);
+    document.write(`Marco ¡ te alcanza para un lollypop <br>
+    y te quedan $ ${marco - 600}   <br>`);
 }
 else if(marco >= 400 )   {
-    document.write(`Marco ¡ te alcanza para un helado de vainilla   <br>`);
+    document.write(`Marco ¡ te alcanza para un helado de vainilla   <br>
+    y te quedan $ ${marco - 400}   <br>`);
 }
 else if(marco >= 300 )   {
-    document.write(`Marco ¡ te alcanza para un helado de chocolito  <br>`);
+    document.write(`Marco ¡ te alcanza para un helado de chocolito  <br>
+    y te quedan $ ${marco - 300}   <br>`);
 }
 else {
     document.write(`Marco ¡ no te alcanza para nada :C  <br>`);
@@ -90,3 +100,5 @@ else {
 
 //ahora quieren saber cuanto les queda de vuelto
 
+
+// ejercicio finalizado con exito.
