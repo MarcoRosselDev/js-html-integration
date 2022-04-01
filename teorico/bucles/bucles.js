@@ -64,3 +64,19 @@ for (let i = 10; i < 19 ; i++) {
     }
     document.write(i + `<br>`);     //ojo que no me salio si dejama esto antes del if
 }
+
+//for in and for of
+
+let animales = ["gato","perro","chancho"];
+
+for (animal in animales){
+    document.write(animales[animal] + `<br>`);      //si dejo (animales) me imprime los numeros de 
+}                                                   //la posición (0,1,2)
+
+for (animal of animales){
+    document.write(animal + `<br>`);
+}
+
+//diferencias 
+//for in nos muestra la posición del elemento (0.1.2.3...)
+//for of nos muestra lo que hay en cada posicion "el valor" (gato,perro,chancho)
