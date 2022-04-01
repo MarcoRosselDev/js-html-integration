@@ -57,3 +57,14 @@ document.write(resultado);              //imprimimos en pantalla el resultado.
 //let = local
 //si no le coloco let (nombre = a +b)entonces nombre es global por que no tiene let 
 //var = global
+
+
+//otra forma de crear funciónes
+
+const sumar = function(number1,number2) {
+    let resul = number1 + number2;
+    return resul;
+}
+
+// let relult = resul(10,15);
+document.write(resul);
