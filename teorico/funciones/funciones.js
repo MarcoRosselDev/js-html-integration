@@ -19,3 +19,23 @@ function saludar()  {                   //podemos llamar despues con saludar()
     prompt(`hola  ¿como estas?`);
 }
 saludar();
+
+//3-return
+
+//es importante que la función devuelva un tipo de dato por que sino la funcion sera solo
+//undefined.
+//ejemplo. el bloque ejecuta un alert en pantalla entonces cuando llamemos al función
+//solo ara eso y no devolvera un valor, por eso sale undefined y por eso usamos return
+
+function thinks()  {
+    alert(`hola`);                                  //esto no importa
+    return  `la función se ejecuto correctamente :D`   //importante por que es lo que emviamos finalmente.
+}
+// document.write(thinks);
+let other = thinks();                              //¿por que no puedo hacer un document.write(thinks);
+document.write(other);                             //por que se imprime todo el bloque XD
+
+//importante; la función son dos cosas . una es lo que hace dentro en su bloque de funcion
+            //pero otra cosa es lo que devuelve (return)
+
+            //otra cosa importante es que el return finaliza la función por lo que si tenemos algo despues de return no se ejecutara.(es como un break).
