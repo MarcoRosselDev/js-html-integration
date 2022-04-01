@@ -39,3 +39,14 @@ document.write(other);                             //por que se imprime todo el 
             //pero otra cosa es lo que devuelve (return)
 
             //otra cosa importante es que el return finaliza la función por lo que si tenemos algo despues de return no se ejecutara.(es como un break).
+
+//4-parametros
+
+function suma(numero1,numero2)  {       //sintaxis de la declaración de una función 
+    let res = numero1 + numero2;        // aplicamos la formula y la guardamos en una variable let
+    return res;                         //le pedimos retornar la respuesta
+}
+
+let resultado = suma(15,15);            //asignamos las variables en suma y las guardamos en una var let
+    
+document.write(resultado);              //imprimimos en pantalla el resultado.
