@@ -50,3 +50,10 @@ function suma(numero1,numero2)  {       //sintaxis de la declaración de una fun
 let resultado = suma(15,15);            //asignamos las variables en suma y las guardamos en una var let
     
 document.write(resultado);              //imprimimos en pantalla el resultado.
+
+//5-scope
+
+//las variables creadas dentro de una función tienen un alcanze local 
+//let = local
+//si no le coloco let (nombre = a +b)entonces nombre es global por que no tiene let 
+//var = global
